@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: lint-report
-          path: '**/build/reports/lint-results-*
+          path: '**/build/reports/lint-results-*'
 
   build:
     runs-on: ubuntu-latest
