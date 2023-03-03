@@ -248,3 +248,7 @@ android {
         targetCompatibility = 1.8
     }
 }
+task Wrapper(type: Wrapper) {
+    gradleVersion = '6.7.1'
+    //change this as per your project. Refer to distributionUrl in gradle-wrapper.properties to confirm the version
+}
